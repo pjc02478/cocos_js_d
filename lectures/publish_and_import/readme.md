@@ -8,3 +8,21 @@ CocoStudio에서 작업한 결과물을 불러오기
 ![folder1](folder1.jpg)
 
 ![folder2](folder2.jpg)
+
+__src/resource.js__
+```js
+var res = {
+	test : "res/파일_이름.json"
+};
+```
+__src/app.js__
+```js
+ctor:function(){
+  this._super();
+  
+  var node = ccs.uiReader.widgetFromJsonFile("res/studio_test_1.json");
+  this.addChild(node);
+  
+  return true;
+}
+```
