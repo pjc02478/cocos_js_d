@@ -6,6 +6,9 @@ CocoStudio에서 작업한 결과물을 불러오기
 파일 -> 프로젝트 내보내기 -> 확인
 
 ![folder1](folder1.jpg)
+<br>
+CocoStudio의 Export/프로젝트_이름 폴더에 들어가서 안의 파일들을<br>
+게임 프로젝트의 res/ 폴더에 복사.
 
 ![folder2](folder2.jpg)
 
