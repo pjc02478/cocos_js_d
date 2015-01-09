@@ -3,8 +3,8 @@
 
 여기서는 컨트롤의 위치, 투명도, 스케일을 조절하는 방법을 다루겠습니다.<br>
 이번에는 버튼이 아닌 라벨로 작업합니다.<br>
-![layout][layout.jpg]
-![tree][tree.jpg]
+![layout](layout.jpg)
+![tree](tree.jpg)
 
 먼저 CocoStudio에서 라벨의 이름을 'label'(또는 원하느 이름)로 바꿔서 저장합니다.<br>
 
