@@ -8,7 +8,7 @@
 
 먼저 CocoStudio에서 라벨의 이름을 'label'(또는 원하느 이름)로 바꿔서 저장합니다.<br>
 
-다음으로 버튼을 찾을 때와 같은 방법으로 getChildByName메소드로 라벨을 가져옵니다.<br>
+다음으로 버튼을 찾을 때와 같은 방법으로 getChildByName메소드로 라벨을 가져옵니다.<br><br>
 __src/app.js__
 ```js
 var label = node.getChildByName("label");
