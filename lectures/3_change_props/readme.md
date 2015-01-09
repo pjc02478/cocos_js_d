@@ -57,3 +57,6 @@ label.setPosition(100,100); // (100,100)좌표로 이동
 label.setPositionX(100); // x만 100으로 이동
 label.setPositionY(200); // y만 100으로 이동
 ```
+
+
+* [예제 : 버튼을 누르면 라벨 커지게 하기](source.js)
