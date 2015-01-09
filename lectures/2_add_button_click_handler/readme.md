@@ -26,6 +26,6 @@ button.addClickEventListener(function(){
 ```
 
 * 한글이 깨져서 나올 때는 파일을 utf-8로 저장하여야 합니다.
-* 버튼을 눌러도 동작하지 않는 경우
-  ![props](props.jpg)
+* 버튼을 눌러도 동작하지 않는 경우<br>
+  ![props](props.jpg)<br>
   버튼의 속성 중 __'쌍방향'__ 항목에 체크해 주세요
