@@ -3,8 +3,8 @@
 
 여기서는 컨트롤의 위치, 투명도, 스케일을 조절하는 방법을 다루겠습니다.<br>
 이번에는 버튼이 아닌 라벨로 작업합니다.<br>
-![layout](layout.jpg)
-![tree](tree.jpg)
+![layout](layout.jpg)<br>
+![tree](tree.jpg)<br>
 
 먼저 CocoStudio에서 라벨의 이름을 'label'(또는 원하느 이름)로 바꿔서 저장합니다.<br>
 
@@ -24,6 +24,16 @@ label.setScale(1.5, 3); // 가로는 1.5배, 세로는 3배 커짐
 /* setScaleX, setScaleY로 가로 또는 세로의 스케일만 변경할 수 있습니다. */
 label.setScaleX(5); // 가로를 5배로
 label.setScaleY(2); // 세로를 2배로
+```
+
+보이는 상태 변경하기
+----
+setVisible메소드로 보이는 상태를 변경할 수 있습니다.<br>
+컨트롤을 안보이게 하거나, 다시 보이도록 할 때 사용합니다.<br>
+만약에 컨트롤을 완전히 안보이게 하고 싶을 때에는 투명도를 0으로 변경하는것보다 setVisible로 상태를 변경하는것이 좋습니다.
+```js
+label.setVisible(true); // 보이도록
+label.setVisible(false); // 안보이도록
 ```
 
 투명도 변경하기
