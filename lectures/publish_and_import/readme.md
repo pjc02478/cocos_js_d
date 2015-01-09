@@ -9,7 +9,7 @@ CocoStudio에서 작업한 결과물을 불러오기
 
 ![folder2](folder2.jpg)
 
-__project.json__
+__project.json__<br>
 modules의 cocos2d 옆에 cocostudio를 추가
 ```json
 "modules" : ["cocos2d", "cocostudio"]
