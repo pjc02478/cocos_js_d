@@ -25,6 +25,8 @@ button.addClickEventListener(function(){
 });
 ```
 
+<br><br><br>
+
 * 한글이 깨져서 나올 때는 파일을 utf-8로 저장하여야 합니다.
 * 버튼을 눌러도 동작하지 않는 경우<br>
   ![props](props.jpg)<br>
