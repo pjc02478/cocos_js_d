@@ -64,7 +64,7 @@ label.runAction(
     cc.ScaleTo.create(1, 1.5,1.5)));
 ```
 
-
+<br><br>
 * Sequence와 Spawn은 2개 이상의 액션에서도 동작시킬 수 있습니다.
 ```js
 label.runAction(
