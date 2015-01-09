@@ -9,6 +9,12 @@ CocoStudio에서 작업한 결과물을 불러오기
 
 ![folder2](folder2.jpg)
 
+__project.json__
+modules의 cocos2d 옆에 cocostudio를 추가
+```json
+"modules" : ["cocos2d", "cocostudio"]
+```
+
 __src/resource.js__
 ```js
 var res = {
@@ -20,7 +26,7 @@ __src/app.js__
 ctor:function(){
   this._super();
   
-  var node = ccs.uiReader.widgetFromJsonFile("res/studio_test_1.json");
+  var node = ccs.uiReader.widgetFromJsonFile("res/파일_이름.json");
   this.addChild(node);
   
   return true;
