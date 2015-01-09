@@ -4,12 +4,12 @@
 ![tree](tree.jpg)<br>
 ![layout](layout.jpg)<br>
 여기서는 컨트롤의 위치, 투명도, 스케일을 조절하는 방법을 다루겠습니다.<br>
-이번에는 버튼이 아닌 라벨로 작업합니다.<br><br>
+이번에는 버튼이 아닌 라벨로 작업합니다.<br>
 
 먼저 CocoStudio에서 라벨의 이름을 'label'(또는 원하느 이름)로 바꿔서 저장합니다.<br>
-
+<br>
 __src/app.js__<br>
-그 다음 아까 버튼을 찾을 때와 같이 getChildByName메소드로 라벨을 가져옵니다.
+다음으로 버튼을 찾을 때와 같은 방법으로 getChildByName메소드로 라벨을 가져옵니다.
 ```js
 var label = node.getChildByName("label");
 ```
