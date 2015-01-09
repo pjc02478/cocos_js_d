@@ -9,8 +9,8 @@ CocoStudio에서 버튼의 이름을 'button' (혹은 원하는 이름)(대소�
 위와 같은 계층 구조에서 최상단에 있는 Panel이 이전에 추가했던 node입니다.<br>
 node의 아래층에 있는 button을 찾으려면 __getChildByName__메소드를 사용해야 합니다.
 
+아래의 코드는 getChildByName메소드를 사용해서 'button'인 항목을 찾는 코드입니다.<br>
 __src/app.js__<br>
-아래의 코드는 getChildByName메소드를 사용해서 'button'인 항목을 찾는 코드입니다.
 ```js
 var button = node.getChildByName("button");
 ```
