@@ -1,5 +1,17 @@
 액션 사용하기2
 ====
+일정 시간 대기하기
+----
+```js
+cc.DelayTime.create(대기시간);
+```
+```js
+/* 1초 후에 ScaleTo액션이 실행됩니다. */
+label.runAction(
+  cc.Sequence.create(
+    cc.DelayTime.create(1),
+    cc.ScaleTo.create(1, 2,2)));
+```
 
 액션 반복하기
 ----
