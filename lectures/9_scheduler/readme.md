@@ -15,7 +15,7 @@ this.schedule(function(){
 ```js
 ctor:function(){
   /* 생략 */
-  this.schedule(this.task);
+  this.schedule(this.task, 0.1);
 },
 task:function(){
   console.log("hello world");
