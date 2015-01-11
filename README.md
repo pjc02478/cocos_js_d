@@ -11,3 +11,4 @@ cocos2d-js와 cocostudio를 이용하여 간단한 게임 만들기
 6. [컨트롤의 속성 변경하기2](lectures/6_change_props2/readme.md)
 7. [프로그래스 바 사용하기](lectures/7_progress_bar/readme.md)
 8. [텍스트 필드 사용하기](lectures/8_text_field/readme.md)
+9. [스케쥴러 사용하기](lectures/9_scheduler/readme.md)
