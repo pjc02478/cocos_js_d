@@ -26,3 +26,7 @@ __src/app.js__
 ```js
 this.unschedule(this.task);
 ```
+
+예제
+----
+* [스케쥴러 작동 / 버튼을 누르면 정지](source.js)
