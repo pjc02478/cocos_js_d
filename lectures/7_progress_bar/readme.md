@@ -5,7 +5,9 @@
 프로그래스 바는 주로 진행 상황을 나타낼 때 사용합니다.<br>
 ![progress_bar](progress_bar.jpg)<br>
 
-먼저 CocoStudio의 캔버스에 프로그래스 바를 추가합니다.<br>
+CocoStudio에서 프로그래스바 추가하기
+----
+먼저 프로그래스 바를 사용하기 위해선 CocoStudio의 캔버스에 프로그래스 바를 추가해야 합니다.<br>
 ![control](control.jpg)<br>
 ![layout](layout.jpg)<br>
 
