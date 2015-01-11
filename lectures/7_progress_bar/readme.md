@@ -5,12 +5,12 @@
 프로그래스 바는 주로 진행 상황을 나타낼 때 사용합니다.
 ![progress_bar](progressbar.jpg)
 
-먼저 CocoStudio의 캔버스에 프로그래스 바를 추가합니다.
-![control](control.jpg)
-![layout](layout.jpg)
+먼저 CocoStudio의 캔버스에 프로그래스 바를 추가합니다.<br>
+![control](control.jpg)<br>
+![layout](layout.jpg)<br>
 
-속성 창의 속성을 변경하여 프로그래스바의 상태를 변경할 수 있습니다.
-![props](props.jpg)
+속성 창의 속성을 변경하여 프로그래스바의 상태를 변경할 수 있습니다.<br>
+![props](props.jpg)<br>
 * 프로그래스 : 0~100사이의 값으로, 100일때 가득 찬 상태고 0일때 비워진 상태입니다.
 * 타입 : 프로그래스 방향을 결정합니다. 좌->우 또는 우->좌
 
