@@ -21,7 +21,8 @@ task:function(){
   console.log("hello world");
 }
 ```
-__unschedule__메소드를 사용해서 실행되는 작업을 중지할 수 있습니다.<br>
+<br><br>
+unschedule메소드를 사용해서 실행되는 작업을 중지할 수 있습니다.<br>
 __src/app.js__
 ```js
 this.unschedule(this.task);
