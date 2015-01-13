@@ -25,7 +25,7 @@ setPercent함수를 사용하여 프로그래스 바의 채움의 정도를 변�
 var progress = node.getChildByName("progress_bar");
 
 /* 반만 채우도록 */
-progress.setPrecent(50);
+progress.setPercent(50);
 ```
 setPrecent함수에 인자로 넣어야 하는 숫자는 %수치입니다.<br>
 대부분의 경우에는 %를 직접 계산해서 넘겨주어야 합니다.
