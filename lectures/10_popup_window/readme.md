@@ -64,3 +64,7 @@ no.addClickEventListener(_this.onPopupClose);
 
 _this.popup = popup;
 ```
+
+예제
+----
+* [팝업 윈도우 띄우고 닫기](source.js)
