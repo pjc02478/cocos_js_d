@@ -12,7 +12,7 @@ CocoStudio에서 작업하기
 그 다음 컨트롤들을 배치하여 아래와 같은 레이아웃을 구성합니다.
 <br>
 ![layout](layout.jpg)
-<br><br>
+<br>
 ![tree](tree.jpg)
 <br>
 마지막으로 익스포트한 후, 결과물들을 res폴더로 복사합니다.
