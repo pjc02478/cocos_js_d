@@ -10,9 +10,9 @@ CocoStudio에서 작업하기
 새 캔버스 만들기 버튼을 눌러 새로운 캔버스를 만들고 이름을 원하는 이름으로 변경합니다.
 <br>
 그 다음 컨트롤들을 배치하여 아래와 같은 레이아웃을 구성합니다.
-<br><br>
-![layout](layout.jpg)
 <br>
+![layout](layout.jpg)
+<br><br>
 ![tree](tree.jpg)
 <br>
 마지막으로 익스포트한 후, 결과물들을 res폴더로 복사합니다.
@@ -38,4 +38,29 @@ onButtonClick:function(){
   /* 원래의 씬에 자식 노드로 추가합니다. */
 	_this.addChild(popup);
 }
+```
+<br><br>
+만약에 팝업 창의 __YES__혹은 __NO__버튼이 눌렸을 때 창이 닫히도록 하고 싶다면 팝업 창의 하위에 있는 버튼을 찾아서 이벤트 핸들러를 등록해주면 됩니다.<br>
+먼저 팝업 창의 __yes__와 __no__버튼을 찾아야 합니다.
+```js
+var popup = ccs.uiReader.widgetFromJsonFile("res/popup.json");
+
+/* yes, no 버튼은 background의 하위에 존재하기 때문에 background부터 찾아야 합니다. */
+var background = popup.getChildByName("background");
+var yes = background.getChildByName("yes");
+var no = background.getChildByName("no");
+```
+그 다음 버튼이 눌렸을 때 발동시킬 이벤트 핸들러를 작성합니다.
+```js
+onPopupClose:function(){
+	_this.popup.removeFromParentAndCleanup();
+	_this.popup = null; // 지워졌기 때문에 null로 초기화
+},
+```
+마지막으로 버튼에 이벤트 핸들러를 등록하고 __popup__변수를 나중에 사용할 수 있도록 저장합니다.
+```js
+yes.addClickEventListener(_this.onPopupClose);
+no.addClickEventListener(_this.onPopupClose);
+
+_this.popup = popup;
 ```
