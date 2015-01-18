@@ -31,6 +31,7 @@ var res = {
 그 다음 __src/app.js__로 이동하여 실제로 팝업을 띄우는 코드를 작성합니다.<br>
 여기에서는 버튼이 눌리면 팝업이 뜨도록 작성해보겠습니다.
 ```js
+/* 이전에 작성한 onButtonClick */
 onButtonClick:function(){
   /* 팝업 레이아웃을 읽어와서 */
 	var popup = ccs.uiReader.widgetFromJsonFile("res/popup.json");
@@ -57,7 +58,8 @@ onPopupClose:function(){
 	_this.popup = null; // 지워졌기 때문에 null로 초기화
 },
 ```
-마지막으로 버튼에 이벤트 핸들러를 등록하고 __popup__변수를 나중에 사용할 수 있도록 저장합니다.
+버튼에 이벤트 핸들러를 등록하고 __popup__변수를 나중에 사용할 수 있도록 저장합니다.<br>
+__popup__변수를 저장하는 이유는 현재 popup은 지역변수지만, 나중에(닫을 때) 다시 사용하기 위함입니다.
 ```js
 yes.addClickEventListener(_this.onPopupClose);
 no.addClickEventListener(_this.onPopupClose);
