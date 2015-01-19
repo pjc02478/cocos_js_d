@@ -20,4 +20,5 @@ ToDo
 ----
 * 씬 변경하기
 * 파일에 저장하고 불러오기
+* 여러 프레임으로 애니메이션시키기
 * [apk 빌드하기](lectures/x_build_apk/readme.md)
