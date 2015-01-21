@@ -19,6 +19,6 @@ cocos2d-js와 cocostudio를 이용하여 간단한 게임 만들기
 ToDo
 ----
 * 씬 변경하기
-* 파일에 저장하고 불러오기
+* [파일에 저장하고 불러오기](lectures/x2_file/readme.md)
 * 여러 프레임으로 애니메이션시키기
 * [apk 빌드하기](lectures/x_build_apk/readme.md)
